@@ -1,9 +1,0 @@
-/* Crea un nuevo div con el id “key”, de 200 px de ancho y alto y de
-color blanco y borde negro */
-
-.key {
- background-color: white;
- height: 200px;
- width: 200px;
- border: solid 2px black;
-}

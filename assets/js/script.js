@@ -1,7 +1,10 @@
 
 var ele = document.getElementById("ele1")
-ele.addEventListener("click", pintar);
+ele.addEventListener("onclick", pintar);
 
 function pintar(){
-    ele.style.backgroundColor = 'yellow'
+  if (ele.style.backgroundColor === 'white')
+    ele.style.backgroundColor = 'yellow';
+  else
+    ele.style.backgroundColor = 'white';
 }
